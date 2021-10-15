@@ -1,0 +1,23 @@
+{
+  "name": "uztours1",
+  "version": "1.0.0",
+  "description": "Landing page for Uztours",
+  "main": "index.js",
+  "scripts": {
+     "compile:sass": "node-sass sass/main.scss css/style.css -watch"
+      
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zubayr-dev/Uztours1.git"
+  },
+  "author": "Zubayr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zubayr-dev/Uztours1/issues"
+  },
+  "homepage": "https://github.com/Zubayr-dev/Uztours1#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

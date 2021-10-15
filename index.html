@@ -1,40 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,
-    300;0,400;0,700;1,300;1,400;1,700&        display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,
+    300;0,400;0,700;1,300;1,400;1,700&        display=swap"
+      rel="stylesheet"
+    />
     <title>Uztours</title>
-</head>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" id="navi-toggle" class="navigation__checkbox">
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
 
-<body> 
-    <header class="header">
-        <div class="logo-box">
-            <img src="output-onlinepngtools.png" alt="background" class="logo">        
-        </div>  
+      <div class="navigation__background">&nbsp;</div>
 
-    <div class="text-box">
-        <h1 class="header-primary">
-            <span class="heading-primary-main">Welcome to</span>
-            <span class="heading-primary-sub"> Uzbekistan</span>
-        </h1>
-        <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Uztours</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> Your benefits</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Popular tours</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Stories</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span> Book now</a></li>
+        </ul>
+      </nav>
+
     </div>
-    
-        </header>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</body>
+
+
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img
+          src="images/output-onlinepngtools.png"
+          alt="background"
+          class="header__logo"
+        />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="header-primary">
+          <span class="heading-primary--main">Welcome to</span>
+          <span class="heading-primary--sub"> Uzbekistan</span>
+        </h1>
+        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+      </div>
+    </header>
+    <section class="section-about">
+      <div class="u-center-text u-margin-bottom-large">
+        <h2 class="heading-secondary">
+          memorable tours for adventurous people
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            You are going to fall in love with travelling
+          </h3>
+          <p class="paragraph">
+            The region’s cradle of culture for more than two millennia,
+            Uzbekistan is the proud home to a spellbinding arsenal of
+            architecture and ancient cities, all deeply infused with the bloody,
+            fascinating history of the Silk Road. In terms of sights alone,
+            Uzbekistan is Central Asia's biggest draw and most impressive
+            showstopper.
+          </p>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            You will gain unforgetable impression
+          </h3>
+          <p class="paragraph">
+            We live in a wonderful world that is full of beauty, charm and
+            adventure. There is no end to the adventures we can have if only we
+            seek them with our eyes open.
+          </p>
+          <a href="#" class="btn-text">Learn more &rarr;</a>
+        </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img
+              src="images/Amir-Temur-Mosque.jpg"
+              alt="Photo 1"
+              class="composition__photo composition__photo--p1"
+            />
+            <img
+              src="images/background.jpg"
+              alt="Photo 1"
+              class="composition__photo composition__photo--p2"
+            />
+            <img
+              src="images/photo.jpg"
+              alt="Photo 1"
+              class="composition__photo composition__photo--p3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-features">
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="features-box">
+            <i class="icon-basic-world features-box__icon"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Explore the world
+            </h3>
+            <p class="fatures-box__text">
+              The region’s cradle of culture for more than two millennia,
+              Uzbekistan is the proud home
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="features-box">
+            <i class="icon-basic-compass features-box__icon"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              MEET WITH NATURE
+            </h3>
+            <p class="fatures-box__text">
+              The region’s cradle of culture for more than two millennia,
+              Uzbekistan is the proud home
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="features-box">
+            <i class="icon-basic-map features-box__icon"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              FIND YOUR WAY
+            </h3>
+            <p class="fatures-box__text">
+              The region’s cradle of culture for more than two millennia,
+              Uzbekistan is the proud home
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="features-box">
+            <i class="icon-basic-world features-box__icon"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              LIVE A HEALTHY LIFE
+            </h3>
+            <p class="fatures-box__text">
+              The region’s cradle of culture for more than two millennia,
+              Uzbekistan is the proud home
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tours">
+      <div class="u-center-text u-margin-bottom-large">
+        <h2 class="heading-secondary">Most famous tours</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">
+                  The history explorer
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>3 day tours</li>
+                  <li>Up to 30 people</li>
+                  <li>2 tour guide</li>
+                  <li>Sleep in cozy hotels</li>
+                  <li>Difficulty: easy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">$905</p>
+                </div>
+                <a href="#" class="btn btn--white">Book now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">
+                  The Best Sea hiker 
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>3 day tours</li>
+                  <li>Up to 30 people</li>
+                  <li>2 tour guide</li>
+                  <li>Sleep in cozy hotels</li>
+                  <li>Difficulty: easy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">$1,705</p>
+                </div>
+                <a href="#" class="btn btn--white">Book now</a>
+              </div>
+            </div>
+          </div>
+        </div>      
+        <div class="col-1-of-3">    
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">
+                The snow adventurous
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>3 day tours</li>
+                  <li>Up to 30 people</li>
+                  <li>2 tour guide</li>
+                  <li>Sleep in cozy hotels</li>
+                  <li>Difficulty: easy</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">$2,605</p>
+                </div>
+                <a href="#" class="btn btn--white">Book now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-center-text">
+        <a href="#" class="btn btn--green">Discover our tours</a>
+    </div>
+    </section>  
+    <section class="section-stories">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="images/vid2.mp4">
+
+        </video>
+      </div>
+
+        <div class="u-margin-bottom-large u-center-text">
+          <h2 class="heading-secondary">
+            Uzbekistan makes you genually happy
+          </h2>
+        </div>
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+              <img src="images/kami.jpg" alt="Kamila" class="story__img">
+              <figcaption class="story__caption">Kamila Noparas</figcaption> 
+          </figure>
+         <div class="story__text">
+           <h3 class="heading-tertiary u-margin-bottom-small">
+             We had best week ever with my family   
+           </h3>
+           <p>
+            The famous Silk Road cities, full of incredible monuments, were calling my name. But the timing never was right. I could have spent only one week in Uzbekistan but I had seen the biggest highlights and get a glimpse of the country. Of course more time would be better.
+           </p>
+         </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+              <img src="images/alim.jfif" alt="Kamila" class="story__img story__img--1">
+              <figcaption class="story__caption">Alim Amsyar  </figcaption> 
+          </figure>
+         <div class="story__text">
+           <h3 class="heading-tertiary u-margin-bottom-small">
+           USBEKISTAN IS THE BEST PLACE TO VISIT 
+           </h3>
+           <p>
+            Think Aladdin and magical green domes that glisten under the scorching sun. Imagine the smell of sugar, spice and everything nice. What you get is not a faraway paradise in an imaginary wonderland, but Central Asia’s biggest attraction and most interesting game changer – Uzbekistan.           </p>
+         </div>
+        </div>
+      </div>
+      <div class="u-center-text">
+        <a href="#" class="btn-text">Read more &rarr; </a>
+      </div>
+    </section>
+
+    <section class="section-book">
+      <div class="row">
+        <div class="book">
+          <div class="book__form">
+            <form action="#" class="form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Most famous tours</h2>
+              </div>
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Full name" required id="name">
+                <label class="form__label" for="name">Full name</label>
+              </div>
+              
+              <div class="form__group">
+                <input type="email" class="form__input" placeholder="Email adress" required id="email">
+                <label class="form__label" for="email">Email adress</label>
+              </div>
+
+              <div class="form__group">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" name="size" id="small">
+                  <label class="form__radio__label" for="small">
+                    <span class="form__radio-button"></span>
+                    Small tours</label>   
+                </div>
+              </div>
+              <div class="form__group">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" name="size" id="large">
+                  <label class="form__radio__label" for="large">
+                    <span class="form__radio-button"></span>
+                    Large tours
+                  </label>
+                </div>
+              </div>
+              <div class="form__group moveIt">
+                <button class="btn btn--green">Next step &rarr;</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <img src="images/output-onlinepngtools.png" alt="Logo" class="footer__logo">
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">About us</a></li>
+              </ul>
+            </div>
+          </div>
+         
+          <div class="col-1-of-2">
+            <div class="footer__copyright">
+              Built by OLIMBEKOV BEKZODBEK (ZUBAYR) inspired by an online course provided by JONAS SCHECHMEDMAN on UDEMY. Copyright © by Bekzodbek Olimbekov (Zubayr).
+            </div>
+          </div>
+        </div>
+      
+      </footer>
+
+    <!-- <section class="grid-test">
+      <div class="row">
+          <div class="col-1-of-2">Col 1 of 2</div>
+          <div class="col-1-of-2">Col 1 of 2</div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">Col 1 of 3</div>
+          <div class="col-1-of-3">Col 1 of 3</div>
+          <div class="col-1-of-3">Col 1 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">Col 1 of 3</div>
+          <div class="col-2-of-3">Col 2 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">Col 1 of 4</div>
+          <div class="col-1-of-4">Col 1 of 4</div>
+          <div class="col-1-of-4">Col 1 of 4</div>
+          <div class="col-1-of-4">Col 1 of 4</div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">Col 1 of 4</div>
+          <div class="col-1-of-4">Col 1 of 4</div>
+          <div class="col-2-of-4">Col 2 of 4</div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">Col 1 of 4</div>
+          <div class="col-3-of-4">Col 3 of 4</div>
+        </div>
+
+      
+    </section> -->
+  </body>
 </html>
+
+
+
+<!-- 
+size: small || large
+
+
+ -->
